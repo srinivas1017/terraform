@@ -1,0 +1,24 @@
+instance_type = var.isProd ? "t3.small" : "t2.micro"
+
+
+in count.tf
+
+instance_type = local.instance_type
+
+
+local => you can keep expressions conditions or functions into locals and get the values into
+a variable
+
+datasources:
+
+search Data Sources in terraform 
+developer.hashicorp.com/terraform/language/data-Sources
+
+query the amiid dynamically?
+
+search => terraform query ami?
+
+
+foreach loop: => it is used to iterate the maps
+
+
