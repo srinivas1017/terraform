@@ -8,6 +8,12 @@ variable "instance_type" {
   default = "t2.micro"
 
 }
+variable "instance_name" {
+  type = string
+  default = "mongodb"
+  
+}
+
 
 variable "tags" {
   type = map(any)
@@ -24,7 +30,7 @@ variable "tags" {
 
 variable "sg-name" {
   type    = string
-  default = "roboshop-all-aws"
+  default = "roboshop-all"
 
 }
 

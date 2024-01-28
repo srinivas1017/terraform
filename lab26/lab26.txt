@@ -1,6 +1,7 @@
 Order of varaibales
 
 1. It will take from command line
-2. -var-file
+2. [-var="instance_type=t3.medium"] file [it is variables.tf file]
+tf_var="instance_type=t3.large"
 3. It will take from [filename].tfvars [[filename].tfvars is a fixed file]
 4. ENV varaibales
